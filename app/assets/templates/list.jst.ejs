@@ -1,0 +1,9 @@
+<strong><%= list.escape("name") %></strong>
+<br>
+<div class="cards">
+</div>
+<form class="new-card" data-list-id="<%= list.escape("id") %>">
+  Add Card:
+  <input type="text" name="title" class="card-title">
+  <input type="submit" value="Add Card">
+</form>  
